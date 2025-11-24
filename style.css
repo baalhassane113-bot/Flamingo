@@ -1,0 +1,90 @@
+h2{
+    text-align: center;
+  
+}
+
+.card{
+    margin: 29px; 
+}
+.card-img-top{
+    height: 400px;
+    animation: ffr 4s infinite;
+}
+@keyframes ffr{
+    0%{background-color: chocolate;}
+    50%{background-color: rgb(42, 30, 210);}
+    100%{background-color: rgb(210, 30, 135);}
+}
+.card-body{
+     animation: ffr 4s infinite;
+}
+.Baniere{
+    background-image: url("images/WhatsApp Image 2025-11-18 à 10.58.18_d96f4dd4.jpg");
+    background-size: cover;
+    object-fit: cover;
+    height: 150vh;
+}
+.banier2{background-color: black;
+   
+   
+    background-size: cover;
+    object-fit: cover;
+
+}
+@keyframes nous{
+     0%{background-image: url("images/WhatsApp Image 2025-11-18 à 10.57.39_f74119c3.jpg");}
+     50%{background-image: url("images/WhatsApp Image 2025-11-18 à 10.57.40_60e39b89.jpg");}
+     100%{background-image: url("images/WhatsApp Image 2025-11-18 à 10.57.44_a299ef40.jpg");}
+}
+.banier2 h5{
+    color: rgb(253, 253, 253);
+   padding-top: 32px;
+   font-size: 44px;
+}
+.banier2 .contenant{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 30px;
+}
+.banier2 .contenant .cart{
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 25px;
+    background-color: bisque;
+    box-shadow: 2px 2px 2px 2px;
+    border-style: outset;
+       cursor: pointer;
+    transition: 1s;
+}
+.banier2 .contenant .cart:hover{
+    transform: scale(1.1);
+   box-shadow: 0 0 20px #dab251
+}
+
+
+.banier2 .contenant .cart img{
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.banier2 .contenant .cart .description{
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 700;
+ color: rgb(0, 0, 0);
+ 
+}
+.banier2 .contenant .cart .bouton{
+    padding: 10px;
+     border-radius: 15px;
+margin-bottom: 12px;
+margin-right: 12px;
+float: right;
+background-color: rgb(240, 20, 20);
+color: white;
+}
+.banier2 .contenant .cart .bouton:hover{
+    background-color: darkred;
+    cursor: pointer;
+    
+}
