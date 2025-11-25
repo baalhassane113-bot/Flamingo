@@ -10,11 +10,7 @@ h2{
     height: 400px;
     animation: ffr 4s infinite;
 }
-@keyframes ffr{
-    0%{background-color: chocolate;}
-    50%{background-color: rgb(42, 30, 210);}
-    100%{background-color: rgb(210, 30, 135);}
-}
+
 .card-body{
      animation: ffr 4s infinite;
 }
@@ -87,4 +83,77 @@ color: white;
     background-color: darkred;
     cursor: pointer;
     
+}
+
+
+.baniere3{ text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.baniere3 .carassol{
+  overflow: hidden;
+  border-radius: 200px;
+  box-shadow: 2px 4px 2px 4px;
+  border-style: outset;
+}
+.baniere3 .carassol img{
+    display: flex;
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: anim 18s infinite;
+}
+@keyframes anim {
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-1950px);}
+    50%{transform: translateY(-1750px);}
+ 
+    100%{transform: translateY(0);}
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+}
+ul li:nth-child(1){color: crimson; font-size: 34px;box-shadow: 0 0 60px #f0634a}
+ul li:nth-child(2){color: rgb(20, 220, 47);font-size: 21px;box-shadow: 0 0 60px #3eff58}
+ul li:nth-child(3){color: rgb(20, 140, 220); font-size: 23px;box-shadow: 0 0 60px #268fc0}
+ul li:nth-child(4){color: rgb(220, 20, 187); font-size: 26px;box-shadow: 0 0 60px #ce0ca4}
+ul li:nth-child(5){color: rgb(231, 229, 230); font-size: 20px;box-shadow: 0 0 60px #dbb8d8}
+ul li:nth-child(6){color: rgb(27, 5, 148); font-size: 30px;box-shadow: 0 0 60px #5e1cda} 
+ul li:nth-child(7){color: rgb(220, 20, 20); font-size: 24px; box-shadow: 0 0 60px #c94736}
+ul li:nth-child(8){color: rgb(217, 220, 20); font-size: 34px; box-shadow: 0 0 60px #dab251}
+.note{
+    display: grid;
+    padding: 32px;
+    margin: 22px;
+}
+.note h4{
+    font-size: 30px;
+    background-color: blueviolet;
+      box-shadow: 0 0 60px #dab251
+}
+.note p{
+    font-size: 25px; color:rgb(179, 4, 4);
+}
+.note .bout{
+    width: 120px;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 17px;
+    background-color: crimson;
+  color: aliceblue;
+}
+.note img{
+    border-radius: 200px;
+    box-shadow: 0 0 0 5px;
+    border-color: #c94736;
 }
